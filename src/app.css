@@ -1,0 +1,90 @@
+body {
+  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  margin-right: 1rem;
+}
+
+main {
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.1;
+  margin: 4rem auto;
+  max-width: 14rem;
+}
+
+p {
+  max-width: 14rem;
+  margin: 2rem auto;
+  line-height: 1.35;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    max-width: none;
+  }
+
+  p {
+    max-width: none;
+  }
+}
+
+.component {
+  border: 2px solid black;
+  margin: 1rem;
+}
+
+.background-red {
+  background-color: #e87575;
+  color: white;
+}
+
+.background-blue {
+  background-color: #335d92;
+  color: white;
+}
+
+.background-green {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.background-grey {
+  background-color: #424242;
+  color: white;
+}
+
+.button-1{
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: #0d6efd;
+  border-color: #0d6efd;
+  :hover {
+      color: #fff;
+      background-color: #0d6efd;
+      border-color: #0d6efd;
+  }
+}
+
+.file-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
